@@ -1,0 +1,19 @@
+.footer{
+    background-color: #000016;
+    color: #fff;
+    padding:2em;
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer_title{
+    font-size: 1.3em;
+    font-weight: 700;
+}
+.footer_title span{
+    color: #3a6cf4 !important;
+}
+.footer .social-icon a{
+    font-size: 1.3em;
+    padding:0 12px 0 0;
+}

@@ -1,0 +1,29 @@
+.skills-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .skill {
+    width: calc(33.33% - 20px);
+    margin-bottom: 40px;
+  }
+  
+  .skill h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .skill-bar {
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .skill-bar-fill {
+    height: 100%;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    transition: width 0.5s ease-in-out;
+  }
